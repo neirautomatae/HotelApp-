@@ -4,6 +4,1613 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/e"
     tools:context=".Tele">
 
+    <Button
+        android:id="@+id/btnmunetel"
+        android:layout_width="65dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="?attr/actionBarItemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.988"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <ScrollView
+        android:layout_width="250dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.84000003">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เบอร์โทรฉุกเฉิน แจ้งเหตุด่วน เหตุร้าย"
+                android:textColor="#0A0A0A"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="2dp"
+                android:text="แจ้งเหตุด่วน-เหตุร้ายทุกชนิด โทร. 191"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="แจ้งไฟไหม้-ดับเพลิง โทร. 199"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="ศูนย์ความปลอดภัย กรมทางหลวงชนบท โทร. 1146"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สายด่วนตำรวจท่องเที่ยว โทร. 1155"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="ศูนย์ปราบปรามการโจรกรรมรถยนต์ รถจักรยานยนต์ โทร. 1192"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="กองบังคับการปราบปราม โทร. 1195"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สายด่วนกรมเจ้าท่า, เหตุด่วนทางน้ำ โทร. 1199"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="กองอำนวยการรักษาความมั่นคงภายในราชอาณาจักร โทร. 02-241-2051"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="กรมควบคุมมลพิษ โทร. 1650"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="ศูนย์สนับสนุนการปฏิบัติการฉุกเฉินสารเคมี โทร. 02-298-2387, 086-130-2386"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="กรมป้องกันและบรรเทาสาธารณภัย โทร. 1784"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีวิทยุ จส.100 โทร. 1137"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีวิทยุ สวพ.91 โทร. 1644"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:text="รถพยาบาล แจ้งเหตุ กู้ชีพ กู้ภัย แจ้งผู้ป่วยฉุกเฉิน"
+                android:textColor="#0A0A0A"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtv24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="แจ้งเจ็บป่วยฉุกเฉิน ศูนย์นเรนทร กระทรวงสาธารณสุข โทร. 1669"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="ศูนย์เอราวัณ สำนักการแพทย์ กรุงเทพมหานคร โทร. 1646"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="ศูนย์ประชาบดี แจ้งคนหาย โทร. 1300"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="ศูนย์ปลอดภัยคมนาคม โทร. 1356"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="หน่วยแพทย์กู้ชีวิต วชิรพยาบาล       โทร. 1554"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="ศูนย์ร้องทุกข์กรุงเทพมหานคร โทร. 1555"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="ศูนย์เตือนภัยพิบัติแห่งชาติ โทร. 192"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:text="เบอร์โทรข้อมูลทางการแพทย์ สาธารณสุข"
+                android:textColor="#0A0A0A"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtv31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สายด่วนยาเสพติด กรมการแพทย์ โทร. 1165"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สำนักงานหลักประกันสุขภาพแห่งชาติ โทร. 1330"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="ศูนย์พิษวิทยา โรงพยาบาลรามาธิบดี โทร. 1367"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สายด่วนสำนักงานคณะกรรมการอาหารและยา โทร. 1556"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สำนักงานอาสากาชาด สภากาชาดไทย โทร. 02-251-0385, 02-251-0582, 02-252-6913"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สายด่วนศูนย์รับบริจาคอวัยวะ สภากาชาดไทย โทร. 1666"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สายด่วนกรมสุขภาพจิต โทร. 1667"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:text="เบอร์โทรศัพท์ฉุกเฉิน จังหวัดเชียงราย"
+                android:textColor="#0A0A0A"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtv40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีดับเพลิงเชียงราย  โทร.  0 5371 1222 0 5371 9119"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจภูธร อำเภอเมืองเชียงราย โทร.  0 5374 4572"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:text="เบอร์โทรศัพท์ฉุกเฉิน หน่วยงานภาคีเครือข่ายภาคเอกชนด้านกู้ชีพกู้ภัย จังหวัดเชียงราย"
+                android:textColor="#0A0A0A"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtv42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="มูลนิธิสยามรวมใจ (ปู่อินทร์) สาขาเชียงราย 08 4378 9534"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="กู้ภัยจอมจันทร์ 053 7263689"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="มูลนิธิสยามรวมใจ (ปู่อินทร์) สาขาแม่สาย 053-7374100 08 7623 1669"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="มูลนิธิเมืองพานสงเคราะห์ (กู้ภัยพาน) (เต็กก่า จีพานเกาะ) 053-723265 080 5006286"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="มูลนิธิพระครูพิทักษ์พรหมวิหาร 08 6914 5417"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="กู้ภัยทัพยั้ง 089 701 6771"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="กู้ภัยแสงธรรม 080 722 5660"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สยามรวมใจ (ปู่อินทร์) 089 4313006"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="กู้ชีพ-กู้ภัยบัวสลี เชียงราย"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="หน่วยกู้ภัยสยามรวมใจแม่ลาว 087 1767437"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สมาคมศิริภรณ์เชียงรายบรรเทาสาธารณภัย 053 713648"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:text="เบอร์โทรสำนักงานการท่องเที่ยว"
+                android:textColor="#0A0A0A"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtv21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจทางหลวง 0 5374 2441"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="บริการข้อมูลข่าวสาร 1672"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สำนักงานข่าวสารการท่องเที่ยว 0 5371 7433"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="เบอร์โทรสถานีตำรวจ"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจภูธรบุญเรือง 0 5378 3445"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจภูธรเชียงของ 0 5379 1426"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจภูธรดอยหลวง 0 5379 0090"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจภูธรเชียงแสน 0 5377 7111"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจภูธรขุนตาล 0 5365 7034"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจภูธรเกาะช้าง 0 5367 5694"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจภูธรแม่อ้อ 0 5360 5295"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจภูธรแม่จัน 0 5371 1444"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจภูธรแม่เจดีย์ 0 5378 9508"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจภูธรแม่ฟ้าหลวง 0 5376 7109"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจภูธรแม่ลาว 0 5377 8199"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจภูธรแม่สาย 0 5373 1444"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจภูธรแม่สรวย 0 5378 6004"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจภูธรแม่ยาว 0 5373 7191"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจภูธรเมืองเชียงราย 0 5371 1588"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สมาคมศิริภรณ์เชียงรายบรรเทาสาธารณภัย 053 713648"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สมาคมศิริภรณ์เชียงรายบรรเทาสาธารณภัย 053 713648"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สมาคมศิริภรณ์เชียงรายบรรเทาสาธารณภัย 053 713648"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สมาคมศิริภรณ์เชียงรายบรรเทาสาธารณภัย 053 713648"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจภูธรป่าแดด 0 5376 1012"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจภูธรพาน 0 5372 1515"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจภูธรพญาเม็งราย 0 5379 9113"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจภูธรเทิง 0 5379 4405"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจภูธรเวียงชัย 0 5376 9236"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจภูธรเวียงเชียงรุ้ง 0 5395 3155"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจภูธรเวียงแก่น 0 5360 8318"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจภูธรเวียงป่าเป้า 0 5378 1466"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:onClick="clickweb"
+                android:text="ที่มา http://www.topchiangrai.com/phone/"
+                android:textColor="#0A0A0A"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtv77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:text=" เบอร์โทรฉุกเฉิน จังหวัดเชียงใหม่"
+                android:textColor="#0A0A0A"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtv78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="การ์ดแอร์ เซอร์วิสเซส สาขาเชียงใหม่ 0 5327 0222"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="ศูนย์ดับเพลิงเชียงใหม่ 199"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สมาคมศิริภรณ์เชียงรายบรรเทาสาธารณภัย 053 713648"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="ประปาเชียงใหม่ 0 5323 3479"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจท่องเที่ยวแอร์พอร์ต (สถานีตำรวจท่องเที่ยวสนามบิน) 0 5327 0222 ต่อ 2191"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="ตำรวจท่องเที่ยวเมืองเชียงใหม่ (ตำรวจท่องเที่ยวหน่วยที่ 3 เขตพื้นที่ที่ 8) 11550, 5324 7318"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="ตำรวจท่องเที่ยวท่าตอน 0 5345 9033"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv85"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="การท่องเที่ยวแห่งประเทศไทย (ททท.) สำนักงานเชียงใหม่ 0 5324 8604, 1672"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv86"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="ศูนย์การจราจรตำรวจภูธร จังหวัดเชียงใหม่ 0 5323 4051, 0 5325 2787"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจพร้าว 0 5347 5309"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจช้างเผือก 0 5321 8445, 0 5321 8443"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจภูพิงค์ 0 5321 9230, 0 5321 1750"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv90"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจเมืองเชียงใหม่ 0 5327 7477, 0 5327 6458"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจสันกำแพง 0 5333 2452"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv92"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจสันป่าตอง 0 5331 1123, 0 5331 1122"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="ตรวจคนเข้าเมืองเชียงใหม่ 0 5327 7510, 0 5320 1755-6"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจสันทราย 0 5349 1949, 0 5349 1952"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv95"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจแม่ปิง 0 5327 5715, 0 5327 5704"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv96"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจสะเมิง 0 5348 7090"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจแม่เวียง 0 5392 8028"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจสารภี 0 5332 1090"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจอมก๋อย 0 5346 7066, 0 5346 7110"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="สถานีตำรวจเวียงแหง 0 5347 7066, 0 5347 7066"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:onClick="clickweb2"
+                android:text="ที่มา http://www.topchiangmai.com"
+                android:textColor="#0A0A0A"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtv102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="เบอร์โรงพยาบาล จังหวัดเชียงราย"
+                android:textColor="#0A0A0A"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtv103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลเกษมราษฏร์ ศรีบุรินทร์ โทร. 0 5391 0999"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลเชียงรายประชานุเคราะห์ โทร. 0 5391 0600 หรือ 0 5371 1009"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลแม่ฟ้าหลวง โทร. 0 5391 7563"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv106"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลแม่ลาว โทร. 0 5360 3100"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv107"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลโอเวอร์บรุ๊ค โทร. 0 5371 1366 หรือ 0 5391 0100"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv108"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลค่ายเม็งรายมหาราช โทร. 0 5371 7649 หรือ 0 5371 7650"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv109"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลสมเด็จพระญาณสังวร โทร. 0 5360 3123"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv110"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:text="โรงพยาบาลจังหวัดเชียงใหม่"
+                android:textColor="#0A0A0A"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtv111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลเซ็นทรัลเชียงใหม่เมโมเรียล 0 5381 9333-40, 0 5327 7090"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลแม่ออน 0 5388 0745-6"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลไชยปราการ 0 5387 0584-6"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลแม่แตง 0 5347 1478, 0 5347 1059"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv115"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลช้างเผือก 0 5322 0022-31"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv116"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลแม่วาง 0 5336 3438"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv117"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลเชียงดาว 0 5345 5074, 0 5345 5248-49"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv118"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลมหาราชนครเชียงใหม่ (รพ.สวนดอก) 0 5322 1122, 0 5322 1141"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv119"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลโรคฟันเชียงใหม่ 0 5341 1150-1"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv120"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลแม่อาย 0 5345 9036, 0 5345 9037"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv121"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลประสาทเชียงใหม่ 0 5321 7704 "
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv122"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลแมคคอร์มิค 0 5392 1777"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลเชียงใหม่ ราม 0 5392 0300"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv124"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลนครพิงค์ 0 5399 9200"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv125"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลเชียงใหม่ ราม 2 0 5385 2590-9"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv126"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลอมก๋อย 0 5346 7068"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv127"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลจินดาสิงหเนตร 0 5324 1712"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv128"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลพร้าว 0 5347 5271"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv129"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลดารารัศมี 0 5329 7207"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv130"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลราชเวช เชียงใหม่ 0 5380 1999"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv131"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลดอยสะเก็ด 0 5349 5571"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv132"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลรวมแพทย์เชียงใหม่ 0 5327 0144-50, 0 5327 3576"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv133"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลดอยเต่า 0 5346 9018"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv134"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลสะเมิง 0 5348 7124-5"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv135"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลหมอวงค์ 0 5324 9559-61"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv136"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลสันป่าตอง 0 5335 5338"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv137"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลฝาง 0 5345 1444-5"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv138"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลสันทราย 0 5349 8996, 0 5349 8998"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv139"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลหางดง 0 5344 2390-93, 0 5344 2333"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv140"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลสารภี 0 5332 1179, 0 5332 1062"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv141"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลฮอด 0 5346 1095, 0 5383 1443"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv142"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลตาเซนต์ปีเตอร์ 0 5322 5011-5"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv143"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลสวนปรุง 0 5328 0228-46"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv144"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลลานนา เชียงใหม่ 0 5399 9777"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv145"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลแม่แจ่ม 0 5348 5073, 0 5348 5099"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv146"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:text="เบอร์โรงพยาบาล จังหวัดลำพูน"
+                android:textColor="#0A0A0A"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtv147"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาล ลำพูน 053-512072"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv148"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลทุ่งหัวช้าง 053-975201"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv149"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลแม่ทา 053-976000"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv150"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลป่าซาง 053-555400"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv151"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลบ้านธิ  0 53-984325"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv152"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาล ศิริเวชลำพูน 053 096 440"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv153"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:text="เบอร์โรงพยาบาล จังหวัดพะเยา"
+                android:textColor="#0A0A0A"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtv154"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลพะเยา 054 409 300"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv155"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลแม่ใจ 054 409 600"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv156"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลเชียงคำ 054-409 000"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv157"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลเชียงม่วน 054 495 300"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv158"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลพะเยา ราม 054 411 111"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv159"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:text="เบอร์โรงพยาบาล จังหวัดลำปาง"
+                android:textColor="#0A0A0A"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtv160"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลลำปาง 054 237 400"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv161"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลงาว 054 261 253"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv162"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลเถิน 054 291 585"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv163"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลแม่เมาะ 054 266 032"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv164"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลเขลางศ์นคร-ราม 054 019 619"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv165"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลเสริมงาม 054 286 117"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv166"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลห้างฉัตร 054 268 700"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv167"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลสบปราบ 055 296 260"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv168"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลแม่ทะ 054 289 184"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtv169"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="โรงพยาบาลค่ายสุรศักดิ์มนตรี 054 839 305"
+                android:textColor="#0A0A0A"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>
